@@ -2,7 +2,7 @@
 # ReadMe Generator
   
 ## Description
-  undefined
+  To create a readMe for each project using node
 
 ## Table of Contents
 [Installation](#installation)<br>
@@ -13,10 +13,10 @@
 [Questions](#questions)<br>
 
 ## Installation
-To run code you need to install: install node 
+To run code you need to install: install node
 
 ## Usage
-The useage of this is To create a ReadMe Generator in Node
+The useage of this is creating readme files
 
 ## License
 Project License  
