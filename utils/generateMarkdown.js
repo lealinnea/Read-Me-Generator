@@ -39,26 +39,35 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}
-  #Description
+# ${data.title}
+  
+## Description
   ${data.description}
-# Table of Contents
-    [Installation](#installation)
-    [Usage](#usage)
-    [License](#license)
-    [Test](#tests)
-    [Questions](#tests)
-# Installation
+
+## Table of Contents
+[Installation](#installation)<br>
+[Usage](#usage)<br>
+[License](#license)<br>
+[Tests](#tests)<br>
+[Contributing](#contributing)<br>
+[Questions](#questions)<br>
+
+## Installation
 To run code you need to install: ${data.installation}
-#Usage
+
+## Usage
 The useage of this is ${data.usage}
-#License
-Proejct License ${data.license} 
-#Contributing
+
+## License
+Project License ${data.license} 
+
+## Contributing
 The contributors to this project are: ${data.contribution}
-#Tests
+
+## Tests
 To run tests, you need to run: ${data.test}
-#Questions
+
+## Questions
 If you have questions contact ${data.username} at ${data.email}.
 `;
 }
