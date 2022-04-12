@@ -40,6 +40,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
 # ${data.title}
+${renderLicenseBadge(data.license)}
   
 ## Description
   ${data.description}
@@ -60,6 +61,7 @@ The useage of this is ${data.usage}
 
 ## License
 Project License ${data.license} 
+${renderLicenseLink(data.license)}
 
 ## Contributing
 The contributors to this project are: ${data.contribution}
